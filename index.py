@@ -40,3 +40,11 @@ lose1 = font.render("Player 1 lost!", True, (255,0,0))
 lose2 = font.render("Player 2 lost!", True, (255,0,0))
 speed_x = 3
 speed_y = 3
+while game:
+  for e in event get():
+    if e.type == QUIT():
+      game = False
+  if finish != True:
+    window.fill_back(back)
+    racket1
+
